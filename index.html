@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>gifts?</title>
+        <!--google font maybe-->
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu:700" rel="stylesheet">
+        <!--jQuery-->
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <!--bootstrap-->
+        
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron" id="jumbo">
+              <h1 id="text">vidgeo games</h1>
+                  <p id="text">Generate a video game gif or add a gif button</p>
+                      <div id="buttonsView"></div>
+                          <form class="form-horizontal">
+                            <fieldset>
+                              <div class="form-group">
+                                <div class="col-lg-10">
+                                  <input type="text" class="form-control" id="vidGame-input" placeholder="Add a video game">
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <div class="col-lg-10">
+                                  <button type="submit" class="btn btn-danger" id="addGame">Add game!</button>
+                                </div>
+                              </div>
+                            </fieldset>
+                          </form>
+          </div>
+          <div class="panel panel-default" id="panelBody">
+              <div class="panel-body">
+                  <div id="gamesView">
+                  </div>
+              </div>
+          </div>
+          
+      </div>
+      <script type="text/javascript" src="assets/javascript/hw.js"></script>
+  </body>
+  </html>

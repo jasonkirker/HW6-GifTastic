@@ -1,0 +1,35 @@
+body {
+    color: black;
+}
+.btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+form, input {
+	margin-right: 10px;
+}
+
+#vidGame-input {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+img {
+	margin: 10px;
+
+}
+
+#jumbo {
+	background-color: white;
+	border: none;
+}
+#text {
+	color: black;
+}
+#panelBody {
+	background-color: white;
+	border: 0;
+}
+#rating {
+    margin: 5px;
+}
