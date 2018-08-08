@@ -1,19 +1,22 @@
 body {
     color: black;
+    font-family: 'Do Hyeon', sans-serif;
 }
 .btn {
     margin-right: 10px;
     margin-bottom: 10px;
 }
 
-
+head {
+    background: #780f2b;
+}
 
 form, input {
 	margin-right: 10px;
 }
 
 #vidGame-input {
-	margin-top: 20px;
+	margin-top: 30px;
 	margin-bottom: 10px;
 }
 img {
@@ -25,14 +28,14 @@ fieldset {
 }
 
 #jumbo {
-	background-color: #d0c7bb;
+	background-color: #fee7c8;
 	border: none;
 }
 #text {
 	color: black;
 }
 #panelBody {
-	background-color: #d0c7bb;
+	background-color: #fee7c8;
 	border: 0;
 }
 #rating {
@@ -42,9 +45,16 @@ fieldset {
 button {
     background: #2d998a;
     border-style: ridge;
-    border-color: #50364c;
+    border-color: #780f2b;
+}
+
+.btn-danger {
+    background: #2d998a;
+    border-style: ridge;
+    border-color: #780f2b;
+    font-family: 'Do Hyeon', sans-serif;
 }
 
 html {
-    background: #d0c7bb;
+    background: #fee7c8;
 }

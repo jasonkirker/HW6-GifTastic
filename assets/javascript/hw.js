@@ -37,11 +37,11 @@ var games = ['Red Dead Redemption', 'Grand Theft Auto', 'Super Meat Boy', 'PUBG'
 
 		for (var i = 0; i < games.length; i++){
 
-		    var newButton = $('<button class="btn btn-danger">') // This code $('<button>') is all jQuery needs to create the beginning and end tag. (<button></button>)
-		    newButton.addClass('game'); // Added a class 
-		    newButton.attr('data-name', games[i]); // Added a data-attribute
-		    newButton.text(games[i]); // Provided the initial button text
-		    $('#buttonsView').append(newButton); // Added the button to the HTML
+		    var newButton = $('<button class="btn btn-danger">') 
+		    newButton.addClass('game'); 
+		    newButton.attr('data-name', games[i]); 
+		    newButton.text(games[i]); 
+		    $('#buttonsView').append(newButton); 
 		}
 	}
 
