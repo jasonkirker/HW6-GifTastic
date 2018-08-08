@@ -6,6 +6,8 @@ body {
     margin-bottom: 10px;
 }
 
+
+
 form, input {
 	margin-right: 10px;
 }
@@ -16,20 +18,33 @@ form, input {
 }
 img {
 	margin: 10px;
+}
 
+fieldset {
+    background: #780f2b;
 }
 
 #jumbo {
-	background-color: white;
+	background-color: #d0c7bb;
 	border: none;
 }
 #text {
 	color: black;
 }
 #panelBody {
-	background-color: white;
+	background-color: #d0c7bb;
 	border: 0;
 }
 #rating {
     margin: 5px;
+}
+
+button {
+    background: #2d998a;
+    border-style: ridge;
+    border-color: #50364c;
+}
+
+html {
+    background: #d0c7bb;
 }

@@ -3,7 +3,7 @@ var games = ['Red Dead Redemption', 'Grand Theft Auto', 'Super Meat Boy', 'PUBG'
 	function displayGif(){
 
 		var gif = $(this).attr('data-name');
-		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + gif + "&api_key=4yYFeiUBylWV2rMQ8pI7qexhzfkowVIv";
+		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + gif + "&api_key=4yYFeiUBylWV2rMQ8pI7qexhzfkowVIv&limit=10";
 
 		 $.ajax({url: queryURL, method: 'GET'}).done(function(response) {
 		 	console.log(response);
