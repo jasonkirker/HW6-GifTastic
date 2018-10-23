@@ -1,4 +1,4 @@
-var games = ['Red Dead Redemption', 'Grand Theft Auto', 'Super Meat Boy', 'PUBG'];
+var games = ['Red Dead Redemption', 'Grand Theft Auto'];
 
 	function displayGif(){
 
